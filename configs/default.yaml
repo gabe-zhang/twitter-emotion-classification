@@ -10,12 +10,12 @@ model:
 
 # Training settings
 training:
-  batch_size: 4
-  learning_rate: 5.0e-7
+  batch_size: 16
+  learning_rate: 2.0e-5
   epochs: 20
-  num_workers: 2
+  num_workers: 4
   precision: "16-mixed"  # 32, 16-mixed, or bf16-mixed
-  early_stopping_patience: 3
+  early_stopping_patience: 5
 
 # Data settings
 data:

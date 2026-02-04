@@ -175,7 +175,7 @@ twitter-emotion-classification/
 | Metric | Score |
 |--------|-------|
 | Accuracy | 0.93 |
-| Macro F1 | 0.91 |
+| Weighted F1 | 0.93 |
 
 **Per-class Performance:**
 
